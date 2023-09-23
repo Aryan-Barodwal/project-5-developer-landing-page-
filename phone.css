@@ -1,0 +1,118 @@
+@media only screen and (max-width:786px) {
+    nav {
+        display: block;
+        margin: 60px 40px;
+
+    }
+
+    nav h1 {
+        /* width: 800px;
+        margin: auto; */
+        text-align: center;
+
+    }
+
+    nav ul {
+        align-items: center;
+        justify-content: center;
+
+
+    }
+
+    nav ul li a {
+        padding: 0 4px;
+    }
+
+    nav ul a {
+        content: "";
+        /* font-size: 15px; */
+
+    }
+
+
+    /* middle section of images  */
+
+
+    .section-container::before {
+        height: 840px;
+
+    }
+
+    .first-heading {
+        margin: 4px 0px;
+    }
+
+    .first-heading h2 {
+        /* align-items: center; */
+        /* align-items: center; */
+        text-align: center;
+        font-size: 17px
+    }
+
+    .first-heading h1.regard-text {
+        text-align: center;
+        font-size: 38px;
+        margin: 0px 0px;
+    }
+
+    .section-container .regard-text span {
+        font-size: 55px;
+        /* font-family: 'Josefin Sans', sans-serif; */
+
+
+    }
+
+    section.web-developer-info {
+        text-align: center;
+        border-radius: 20px;
+
+    }
+
+
+        /*  information about cards of images  */
+
+        .grid-of-information {
+            flex-direction: column;
+        }
+
+
+        /* Breeze - Website Management Tool */
+
+        /* cards media_queries*/
+
+        .cards-of-images {
+            flex-direction: column;
+
+        }
+
+        .cards-of-images .card {
+            margin: 5px 0px;
+
+
+        }
+
+        .cards-of-images img {
+            width: 130px;
+            height: 120px;
+
+        }
+
+        .cards-of-images .image {
+            display: block;
+            width: 130px;
+            margin: auto;
+
+        }
+
+
+        /* footer of website */
+
+
+        /* content: ""; */
+        section .foot {
+            /* padding: 20px 0; */
+            /* height: 45px; */
+            /* padding: 20px 0; */
+            font-size: 15px;
+        }
+    }
